@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    background: #171717;
+    position: fixed;
+    width: 100%;
+    z-index: 100px;
+    
+}
+
+.navbar {
+    display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
+
+    
+}
+
+.logo{
+    margin-left: 0px;
+    
+    
+}
+
+.logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.navbar a:hover {
+    background: #535252;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header {
+    height: 80vh !important;
+    background: url(img/header2.png) no-repeat center;
+    background-size: cover;
+    
+}
+
+.titulo {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 40px;
+    font-weight: 60px;
+    text-transform: uppercase;
+    color: #414040;
+    
+
+}
+
+p {
+    margin-bottom: 40px
+    font-size: 18px;
+    color: rgb(177, 91, 91);
+}
+
+.btn1 a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid rgb(177, 91, 91);
+    color: #e0dada;
+    text-decoration: none;
+    background: rgb(177, 91, 91);
+}
+
+.btn2 a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid rgb(177, 91, 91);
+    color: #e0dada;
+    text-decoration: none;
+    background: rgb(177, 91, 91);
+}
+
+.btn3 a {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid rgb(177, 91, 91);
+    color: #f1f1f1;
+    text-decoration: none;
+    background: rgb(177, 91, 91);
+}
+
+
+
+.contenido {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.img {
+
+width: 300px;
+margin: 10 50;
+
+}
+
+.contenidoPRODUCTOS {
+
+    margin-top: 10%;
+    padding: 30px;
+    background: #fff;
+}
+
+
+.CONTACTO {
+    margin-top: 10%;
+    padding: 30px;
+    background: #fff;
+}
+
+.ENVIOS {
+    
+    padding: 40px;
+    background: #f8dada;
+
+}
+
+.NOSOTROS {
+    padding: 30px;
+    margin-top:  10%; 
+}
+
+/*
+.box-contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+        
+}
+
+.box-contenedor .box {
+height: 11rem;
+width: 17rem;
+background: #171717;
+border-radius: 1rem;
+box-shadow: 0 .3rem  5rem #5352525;
+margin: 2rem;
+
+}
+
+.box-contenedor .box i {
+    height: 3rem;
+    width: 3rem,
+    line-height: 3rem;
+    text-align: center;
+    border-radius: 50%;
+    color: #5352525;
+    background: #9c279c;
+    font-size: 2rem;
+    margin: 1rem  0;
+
+
+
+}
